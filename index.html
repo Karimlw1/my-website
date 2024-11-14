@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>devinette & culture generale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="wel_container">
+    <input id="name" type="text" placeholder="enter your name" required>
+  <button class="submitName" onclick="submitName()">suivant</button>
+  </div>
+
+  <div class="score">
+    <strong id="userName"></strong>:<p id="score"></p>
+  </div>
+  <div class="indicateur">
+    <p id="indText"></p>
+  </div>
+
+  <div class="container">
+    <fieldset>
+      <legend>Question</legend>
+    <p><strong>Qui es le meilleur programmeur de la famille</strong></p>
+    </fieldset><br>
+
+    <fieldset>
+      <legend>choisisez une reponse</legend>
+      <button class="reponse" id="reponsef1" onclick="submit1()">Rama</button><br>
+      <div class="try_again">
+        <em>sorry you failed</em><br>
+        <button class="try" onclick="tryAgain()">try again</button></a>
+      </div>
+      <button class="reponse" id="reponsev" onclick="submit2()">Karim</button><br>
+      <button class="reponse" id="reponsef2" onclick="submit3()">Rachid</button>
+    </fieldset>
+  </div>
+  <button class="update" onclick="updateScore()"> update your score</button>
+  <details>
+    <summary>attention</summary>
+    <ul>
+      <li>don't choose the true answe twice <br> you'll lose score as a result</li>
+      <li>don't reflesh the page</li>
+      <li>we'll be uploading new questions every day</li>
+      <li>this is just trying</li>
+    </ul>
+  </details>
+  <a class="a" ><button class="submit" onclick="submit()">next</button></a>
+<script src="script.js"></script>  
+</body>
+</html>
