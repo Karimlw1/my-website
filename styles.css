@@ -86,8 +86,8 @@ footer p{
 }
 @media (max-width: 800px) {
     main{
-        flex-direction: column;
-        padding-top: 50px;
+        flex-direction: column-reverse;
+        padding-top: 100px;
         margin-top: 5px;
     }
     img{
@@ -102,6 +102,7 @@ footer p{
         padding-top: 40px;
     }
 }
+
 
 
 
