@@ -3,6 +3,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     background-color:  rgb(15, 15, 32);
     color: aliceblue;
     font-family: arial;
@@ -42,4 +43,10 @@ header button:hover{
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.3);
     font-weight: bold;      
 }
-
+@media(max-width: 760px){
+    header{
+        paddig-left: 10px 30px
+    }
+    header button{
+        display : hidden;
+}
