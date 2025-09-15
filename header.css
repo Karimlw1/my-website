@@ -1,0 +1,45 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgb(15, 15, 32);
+    color: aliceblue;
+    font-family: arial;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+   
+}
+h1{
+    cursor: default;
+    user-select: none;
+}
+.headerBttn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+}
+header button {
+    margin: 5px;
+    width: max-content;
+    height: fit-content;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: all ease-in-out 0.4s;
+}
+header button:hover{
+    transform: scale(1.2);
+    color: rgb(15, 15, 148);
+    padding: 10px;
+    border: solid 1px rgba(49, 25, 136, 0.247); 
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.3);
+    font-weight: bold;      
+}
+
