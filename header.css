@@ -45,7 +45,7 @@ header button:hover{
 }
 @media(max-width: 760px){
     header{
-        paddig-left: 10px 30px
+        paddig-left: 10px 30px;
     }
     header button{
         display : hidden;
