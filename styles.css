@@ -97,6 +97,11 @@ footer p{
         margin-left: 0px;
         text-align: center;
     }
+    footer{
+         height: 100px;
+        padding-top: 40px;
+    }
 }
+
 
 
