@@ -94,6 +94,7 @@ div .myProjects{
     flex-direction: column;
     margin-top: 40px;
     color: skyblue;
+    text-align: -webkit-center;
 }
 div .projects img{
     width: 100px;
@@ -102,9 +103,26 @@ div .projects img{
     border-radius: 10px;
 }
 div .projects{
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     justify-items: center;
+    text-align: center;
+}
+.projects img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+.myImage{
+    align-items: center;
 }
