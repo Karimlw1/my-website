@@ -93,15 +93,9 @@ div .myProjects{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    color: skyblue;
-    text-align: -webkit-center;
+    color: rgb(255, 255, 255);
 }
-div .projects img{
-    width: 100px;
-    height: 120px;
-    height: fit-content;
-    border-radius: 10px;
-}
+
 div .projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -125,4 +119,8 @@ div .projects{
 }
 .myImage{
     align-items: center;
+}
+a{
+    color: yellow;
+    font-style: italic;
 }
