@@ -10,8 +10,8 @@ header{
     padding: 20px 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 30%;
-   
 }
 h1{
     cursor: default;
@@ -21,7 +21,7 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 60%;
+    /* width: 60%; */
 }
 header button {
     margin: 5px;
