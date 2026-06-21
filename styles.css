@@ -10,7 +10,7 @@ main{
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    color: aliceblue;
+    color: rgb(0 0 0 / 89%);
 }
 .get_to_know_me{
     margin-left: 10px;
