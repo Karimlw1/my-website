@@ -12,6 +12,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     gap: 30%;
+    z-index: 5000;
 }
 h1{
     cursor: default;
@@ -56,4 +57,5 @@ header button:hover{
     }
     header button{
         display : hidden;
+    }
 }
