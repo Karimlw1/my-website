@@ -16,6 +16,7 @@ header{
 h1{
     cursor: default;
     user-select: none;
+    position: relative;
 }
 .headerBttn{
     display: flex;
@@ -29,19 +30,25 @@ header button {
     height: fit-content;
     background-color: transparent;
     border: none;
-    border-radius: 20px;
-    color: white;
+    border-bottom:solid 1px #dace3b;
+    border-radius: 5px;
+    padding:10px;
+    color: #ffffff;
     cursor: pointer;
     user-select: none;
-    transition: all ease-in-out 0.4s;
+    margin-left:25px;
+    position: relative;
+    transition: all linear 0.4s;
 }
 header button:hover{
-    transform: scale(1.2);
-    color: rgb(15, 15, 148);
+    color: rgb(235 228 6);
     padding: 10px;
+    border:none;
+    background: #000000;
+    border-radius: 20px;
     border: solid 1px rgba(49, 25, 136, 0.247); 
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.3);
-    font-weight: bold;      
+        
 }
 @media(max-width: 760px){
     header{
