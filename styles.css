@@ -86,3 +86,17 @@ footer{
 footer p{
     color: rgba(128, 128, 128, 0.185);
 }
+div .myProjects{
+       width: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    color: skyblue;
+}
+div .projects img{
+    width: 100px;
+    height: 120px;
+    height: fit-content;
+    border-radius: 10px;
+}
